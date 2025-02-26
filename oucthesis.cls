@@ -286,7 +286,6 @@
   \renewcommand{\headrulewidth}{0pt} % 取消页眉横线
   \chapter*{\engcontentsname}%
   \@starttoc{toe}%
-  \clearpage
 }
 \newcommand\addengcontents[2]{%
     \addcontentsline{toe}{#1}{\protect\numberline{\csname the#1\endcsname}#2}}
