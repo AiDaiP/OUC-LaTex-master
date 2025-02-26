@@ -389,6 +389,7 @@
 \DeclareCaptionLabelSeparator{space}{ }
 \captionsetup{
    labelsep=space
+   justification=centering % 图表标题居中
 }
 
 
