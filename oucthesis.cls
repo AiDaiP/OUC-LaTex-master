@@ -252,6 +252,7 @@
   \ouc@setchinese
   \let\clearpage\relax
   \ouc@chapter[摘要]{摘 ~~~~ 要}
+  \addcontentsline{toe}{chapter}{Abstract (In Chinese)} %范例-中文摘要在英文目录中显示
   \let\clearpage\standardclearpage
   \vspace{1em}
 }{
@@ -266,7 +267,8 @@
   \pagenumberingnoreset{Roman}
   \ouc@setenglish
   \let\clearpage\relax
-  \ouc@chapter[Abstract]{ABSTRACT}
+  \ouc@chapter[Abstract]{\textbf{ABSTRACT}} % 7-ABSTRACT加粗
+  \addcontentsline{toe}{chapter}{Abstract (In English)} % 范例-英文摘要在英文目录中显示
   \let\clearpage\standardclearpage
   \vspace{1em}
 }{
@@ -277,7 +279,7 @@
 
 
 % TOC: 英文目录设置
-\newcommand\engcontentsname{Contents}
+\newcommand\engcontentsname{\textbf{Contents}} % 8-Contents加粗
 \newcommand\tableofengcontents{%
   \pagestyle{plain}
   \pagenumberingnoreset{Roman}
