@@ -150,8 +150,8 @@
 
 \geometry{
   paper      = a4paper,
-  vmargin    = 2.7cm,
-  hmargin    = 2.7cm,
+  vmargin    = 2.5cm, % 20-(1): 上、下、左、右边距均为25mm，应用于整篇文档
+  hmargin    = 2.5cm, % 20-(1): 上、下、左、右边距均为25mm，应用于整篇文档
   headheight = 0.75cm,
   headsep    = 0.29cm,
   footskip   = 0.79cm,
