@@ -389,7 +389,7 @@
 \floatname{algorithm}{算法}
 \DeclareCaptionLabelSeparator{space}{ }
 \captionsetup{
-   labelsep=space
+   labelsep=space,
    justification=centering % 图表标题居中
 }
 
