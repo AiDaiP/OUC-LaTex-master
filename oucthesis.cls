@@ -347,7 +347,7 @@
     chapter = {
       format      = \sffamily\fontsize{16\bp@}{26.67\bp@}\selectfont\centering,
       aftername   = \zhspace[0.5],
-      beforeskip  = 24pt, % 10-章标题段前24磅
+      beforeskip  = 0pt, % 10-章标题段前24磅，写成0就跟范例word一样了，不知道原因
       afterskip   = 18pt, % 10-章标题段前18磅
       fixskip     = false,
     },
