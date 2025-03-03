@@ -95,14 +95,17 @@
 \bibliography{cite}
 
 % 学术成果
-\phantomsection\addengcontent{chapter}{Achievements} % 还得改
+\newpage % 防止英文目录页码对不上
+\phantomsection\addengcontent{chapter}{Achievements}
 \include{data/achievement.tex}
 
 % 致谢
+\newpage % 防止英文目录页码对不上
 \phantomsection\addengcontent{chapter}{Acknowledgements}
 \include{data/acknowledgement.tex}
 
 % 作者简介
+\newpage % 防止英文目录页码对不上
 \phantomsection\addengcontent{chapter}{Resume}
 \include{data/profile.tex}
 
