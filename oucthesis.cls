@@ -347,22 +347,22 @@
     chapter = {
       format      = \sffamily\fontsize{16\bp@}{26.67\bp@}\selectfont\centering,
       aftername   = \zhspace[0.5],
-      beforeskip  = 28pt,
-      afterskip   = 18pt,
+      beforeskip  = 24pt, % 10-章标题段前24磅
+      afterskip   = 18pt, % 10-章标题段前18磅
       fixskip     = false,
     },
     section = {
       format = \sffamily\fontsize{14\bp@}{25.67\bp@}\selectfont,
       aftername   = \zhspace[0.5],
-      beforeskip  = 24pt,
-      afterskip   = 6pt,
+      beforeskip  = 24pt, % 10-二级标题段前24磅
+      afterskip   = 6pt, % 10-二级标题段后6磅
       fixskip     = false,
     },
     subsection = {
       format    = \sffamily\fontsize{12\bp@}{22\bp@}\selectfont,
       aftername   = \zhspace[0.5],
-      beforeskip  = 12pt,
-      afterskip   = 6pt,
+      beforeskip  = 12pt, % 10-三级标题段前12磅
+      afterskip   = 6pt, % 10-三级标题段后6磅
       fixskip     = false,
       indent    = \z@,
     },
