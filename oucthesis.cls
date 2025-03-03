@@ -346,7 +346,7 @@
     chapter = {
       format      = \sffamily\fontsize{16\bp@}{26.67\bp@}\selectfont\centering,
       aftername   = \zhspace[0.5],
-      beforeskip  = 28pt,
+      beforeskip  = 24pt,
       afterskip   = 18pt,
       fixskip     = false,
     },
